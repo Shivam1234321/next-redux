@@ -5,8 +5,8 @@ import store from "../../../store/index";
 import { ReactNode } from "react";
 
 interface ReduxProviderProps {
-    children: ReactNode;
-  }
+  children: ReactNode;
+}
 
 export default function ReduxProvider({children}: ReduxProviderProps) {
     return(
